@@ -1,412 +1,700 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/pngl" href="/img/icono.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
-        <header>
-            <div class="logo">
-                <a href="#">Nick</a>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                </ul>
-            </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
+      <header>
+        <div class="logo">
+          <a href="#">Andrés</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
 
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/hero.png" alt="">
-            </div>
-            <h1>NICK PEREZ</h1>
-            <h2>Ingeniero de Software - Experto UI/UX</h2>
-            <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
-            </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/profile.jpeg" alt="" height="300px" />
         </div>
+        <h1>ANDRÉS HERNÁNDEZ</h1>
+        <h2>Desarrollador fullStack</h2>
+        <div class="redes">
+          <a
+            href="https://www.facebook.com/andresfelipe.hernandezaldana"
+            target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://github.com/AndresH11" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+          <a href="https://www.linkedin.com/in/andresh11" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+      </div>
     </section>
 
     <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Andrés Hernández.</span> Desarrollador fullStack,
+          proactivo y con capacidad para desarrollar páginas web elegantes y
+          pioneras, organizado y con capacidad de multitareas con experiencia en
+          programación de proyectos, mejora de diseño y verificación de código.
+          Habilidades de desarrollo web, aplicaciones desktops utilizando como
+          herramienta principal Electron.js el cual nos permite desarrollar una
+          aplicación para las tres plataformas Windows, Mac y Linux. Y
+          aplicaciones móviles con Flutter que es un framework que nos permite
+          desarrollar una aplicación para Android y Ios de forma simultánea.
+          Dichas habilidades, experiencias y versatilidad me hacen la persona
+          idónea para formar parte del equipo de trabajo.
+        </p>
 
-            <div class="fila">
-                <!-- datos personales -->
-                <div class="col">
-                    <h3>Datos Personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Cumpleaños</strong>
-                            15-01-1980
-                        </li>
-                        <li>
-                            <strong>Teléfono</strong>
-                            2555 5454545
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            cw@example.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
-                        </li>
-                        <li>
-                            <strong>Dirección</strong>
-                            123 San Luis, Argentina
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>FREELANCE</span>
-                        </li>
-                    </ul>
-                </div>
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                11-05-2001
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                +57 3023600122
+              </li>
+              <li>
+                <strong>Email</strong>
+                andresfelipe200110@gmail.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Santa Marta
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>Desarrollador fullStack</span>
+              </li>
+            </ul>
+          </div>
 
-                <!-- intereses -->
-                <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-apple"></i>
-                            <span>MAC OS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
-                        </div>
-                        
-                    </div>
-                </div>
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-linux"></i>
+                <span>Linux</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-atom"></i>
+                <span>Electrónica</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>AUTOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+          </div>
         </div>
+        <a
+          href="utils/curriculum.pdf"
+          download="Curriculum-andres-hernandez"
+          style="text-decoration: none"
+          ><button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span></button
+        ></a>
+      </div>
     </section>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>Skills</h2>
-            <div class="fila">
-                <!-- Technical Skill -->
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>89%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Photoshop</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>81%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Drupa</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>55%</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>97%</span>
                 </div>
-                <!-- Professional Skills -->
-                <div class="col">
-                    <h3>Professional Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en Equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creatividad</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>99%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Dedicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Proyect Management</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
-                                <span>94%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="skill">
+              <span>TypeScript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ReactJs</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>ElectronJs</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>NodeJs</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Firebase</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Flutter</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>87%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>97%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Autodidacta</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>97%</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>Curriculum</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educación</h3>
-                    <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Escuela de desarrollo web</h4>
+              <span class="casa">Platzi</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>
+                Aprendí a desarrollar aplicaciones web modernas utilizando
+                tecnologías como HTML, CSS, JavaScript y frameworks como React y
+                Node.js. Además, reforcé mis habilidades en diseño responsivo,
+                implementación de buenas prácticas de desarrollo y optimización
+                del rendimiento de sitios web. Este curso me permitió adquirir
+                conocimientos sólidos para crear soluciones digitales eficientes
+                y adaptables.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
             </div>
+            <div class="item izq">
+              <h4>Legacy - Flutter: Tu guía completa para IOS y Android</h4>
+              <span class="casa">Udemy</span>
+              <span class="fecha">Ene 2023 - Mar 2023</span>
+              <p>
+                A lo largo de este curso, aprendí a desarrollar aplicaciones
+                móviles usando el SDK de Flutter y el lenguaje Dart. Adquirí
+                conocimientos en el manejo de Widgets, gestión del estado (State
+                Management), integración con APIs REST, uso de Firebase y
+                almacenamiento local. También aprendí a trabajar con
+                notificaciones push, diseño de interfaces responsivas,
+                manipulación de datos en JSON, y despliegue de aplicaciones en
+                la PlayStore y AppStore. Este curso me permitió obtener una base
+                sólida para construir aplicaciones funcionales y visualmente
+                atractivas, implementando buenas prácticas en el desarrollo
+                móvil.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Ingeniería Electrónica</h4>
+              <span class="casa">Universidad Del Magdalena</span>
+              <span class="fecha">2019-2 - Actualmente</span>
+              <p>
+                Durante mi formación, he adquirido conocimientos en diseño de
+                circuitos electrónicos, sistemas de control y programación de
+                microcontroladores. He participado en proyectos académicos
+                enfocados en automatización y telemática, los cuales me han
+                permitido desarrollar habilidades prácticas y teóricas.
+                Actualmente, me encuentro finalizando materias clave y
+                explorando áreas como la electrónica de potencia y electrónica
+                industrial, con miras a aplicar estos conocimientos en proyectos
+                innovadores.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Desarrollador Flutter</h4>
+              <span class="casa">Profesional independiente</span>
+              <span class="fecha">Actualmente</span>
+              <ul class="lista" id="v4">
+                <li>Manejo de estado con provider y riverpod.</li>
+                <li>Maquetación y diagramación de UI.</li>
+                <li>Consumo de servicios REST.</li>
+                <li>Integración con base de datos Firebase..</li>
+                <li>Integración con funcionalidades nativas.</li>
+                <li>Manejo de base de datos local.</li>
+              </ul>
+
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Desarrollador fullStack</h4>
+              <span class="casa">Investac</span>
+              <span class="fecha">Ago 2023 – Dic 2023</span>
+              <ul class="lista" id="v4">
+                <li>Definición de arquitectura de desarrollo.</li>
+                <li>Validación de códigos para una estructuración adecuada.</li>
+                <li>
+                  Participación en la creación de plataformas web utilizando
+                  React, Graphql, TypeScript y TailwindCss.
+                </li>
+                <li>
+                  Participación en el desarrollo del servidor utilizando
+                  Node.js, Graphql, TypeScript, Express.js y Typeorm.
+                </li>
+                <li>Creación de una plataforma web.</li>
+                <li>Validación de diseños.</li>
+              </ul>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Web Developer</h4>
+              <span class="casa">Skys Mobile Apps S.A.S</span>
+              <span class="fecha">Feb 2023 – Jun 2023</span>
+              <ul class="lista" id="v4">
+                <li>
+                  Participación en el desarrollo de plataforma web utilizando
+                  React, TypeScript, Firebase, sql y TailwindCss.
+                </li>
+                <li>
+                  Creación de plataforma web utilizando React, Firebase, sql,
+                  TypeScript y TailwindCss.
+                </li>
+                <li>
+                  Creación de programa para escritorio utilizando Electron.js,
+                  Sql, TypeScript y Firebase.
+                </li>
+                <li>
+                  Participación en el diseño, conceptualización y proceso.
+                </li>
+                <li>
+                  Definición de arquitectura, planteamiento y aprobaciones de
+                  diseños.
+                </li>
+              </ul>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.proyectH.iptv_bliss&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><div class="proyecto">
+              <img src="img/iptv_bliss.png" alt="" />
+              <div class="overlay">
+                <h3>Iptv Bliss</h3>
+                <p>
+                  La mejor aplicación para disfrutar de tus canales IPTV
+                  favoritos.
+                </p>
+              </div>
             </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-google-play"></i> Flutter</span
+                >
+              </li></u
+            ></a
+          >
+          <a
+            href="https://play.google.com/store/apps/details?id=com.proyectH.radio_play&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="proyecto">
+              <img src="img/radio_play.png" alt="" />
+              <div class="overlay">
+                <h3>Radio Play</h3>
+                <p>
+                  La app definitiva para escuchar estaciones de radio de todo el
+                  mundo.
+                </p>
+              </div>
+            </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-google-play"></i> Flutter</span
+                >
+              </li></u
+            >
+          </a>
+          <a href="#">
+            <div class="proyecto">
+              <img src="img/lab_electronica.png" alt="" />
+              <div class="overlay">
+                <h3>Admin Lab Ing.Electrónica</h3>
+                <p>
+                  Plataforma Desktop para administrar el prestamo de implementos
+                  en el laboratorio de analoga en la Universidad del magdalena.
+                </p>
+              </div>
+            </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamReact"
+                  ><i class="fa-brands fa-react"></i> React</span
+                >
+              </li>
+              <li>
+                <span class="spamTauri"
+                  ><img
+                    src="https://cdn.worldvectorlogo.com/logos/tauri-1.svg"
+                    alt=""
+                    srcset=""
+                    width="10"
+                    height="10"
+                  />
+                  Tauri</span
+                >
+              </li>
+              <li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-css3-alt"></i> Tailwind CSS</span
+                >
+              </li>
+              <li>
+                <span class="spamReactQuery"
+                  ><i class="fa-brands fa-react"></i> ReactQuery</span
+                >
+              </li></u
+            >
+          </a>
+          <a href="https://amc-motos.firebaseapp.com">
+            <div class="proyecto">
+              <img src="img/amc_motos.png" alt="" />
+              <div class="overlay">
+                <h3>AMC Motos Admin</h3>
+                <p>
+                  Plataforma web para la administración de eventos AMC Motos.
+                </p>
+              </div>
+            </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamReact"
+                  ><i class="fa-brands fa-react"></i> React</span
+                >
+              </li>
+
+              <li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-css3-alt"></i> Tailwind CSS</span
+                >
+              </li>
+              <li>
+                <span class="spamFirebase"
+                  ><i class="fa-solid fa-fire-flame-curved"></i> Firebase</span
+                >
+              </li>
+              <li>
+                <span class="spamReactQuery"
+                  ><i class="fa-brands fa-react"></i> ReactQuery</span
+                >
+              </li></u
+            >
+          </a>
+          <a
+            href="https://administracion-proiily.web.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="proyecto">
+              <img src="img/proiily_admin.png" alt="" />
+              <div class="overlay">
+                <h3>Proiily</h3>
+                <p>
+                  Dashboard para administrar conjuntos residenciales, manejo de
+                  Apartamentos, Residentes, Visitantes, Parqueaderos y más
+                </p>
+              </div>
+            </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamReact"
+                  ><i class="fa-brands fa-react"></i> React</span
+                >
+              </li>
+              <li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-css3-alt"></i> Tailwind CSS</span
+                >
+              </li>
+              <li>
+                <span class="spamFirebase"
+                  ><i class="fa-solid fa-fire-flame-curved"></i> Firebase</span
+                >
+              </li>
+              <li>
+                <span class="spamReactQuery"
+                  ><i class="fa-brands fa-react"></i> ReactQuery</span
+                >
+              </li></u
+            >
+          </a>
+
+          <a href="#">
+            <div class="proyecto">
+              <img src="img/proiily_vigilante.png" alt="" />
+              <div class="overlay">
+                <h3>Proiily Recepción Vigilante</h3>
+                <p>
+                  Plataforma Desktop para administrar el ingreso de visitantes,
+                  minutas, paquetes y mas, en un conjunto cerrado.
+                </p>
+              </div>
+            </div>
+            <u class="lista2"
+              ><li>
+                <span class="spamReact"
+                  ><i class="fa-brands fa-react"></i> React</span
+                >
+              </li>
+              <li>
+                <span class="spamTailwindCss"
+                  ><i class="fa-brands fa-css3-alt"></i> Tailwind CSS</span
+                >
+              </li>
+              <li>
+                <span class="spamFirebase"
+                  ><i class="fa-solid fa-fire-flame-curved"></i> Firebase</span
+                >
+              </li>
+
+              <li>
+                <span class="spamReactQuery"
+                  ><i class="fa-brands fa-react"></i> ElectronJs</span
+                >
+              </li></u
+            >
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input type="text" placeholder="Tú Nombre" />
+            <input type="text" placeholder="Número telefónico" />
+            <input type="text" placeholder="Dirección de correo" />
+            <input type="text" placeholder="Tema" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Mapa -->
+          <div class="col">
+            <img src="img/ubicacion.png" alt="" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Santa Marta (Magdalena)
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Llamame: +57 3023600122
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: andresfelipe200110@gmail.com
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- footer -->
     <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
-        </div>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a
+          href="https://www.facebook.com/andresfelipe.hernandezaldana"
+          target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://github.com/AndresH11" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/in/andresh11" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fa-solid fa-rss"></i></a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
